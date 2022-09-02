@@ -1,0 +1,120 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+   
+}
+
+.logo {
+    width: 100%;
+    float: left; /*flotaria*/   
+
+}
+
+.right {
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: white;
+}
+
+.left{
+    float: left ;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;  
+
+}
+
+.btn-izq {
+    float: right;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.logoAlura {
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+
+
+.text-input {
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none; /*ningun borde*/
+    outline: none; /* hace que no se vea el margen*/
+    background: #F3F5FC;
+}
+
+#imgDer {
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+
+#texto {
+
+   margin-left: 7%;
+   margin-right: 5%;
+}
+
+#btn-encriptar {
+
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background-color: #0A3871;
+    color: white;
+}
+
+#btn-desencriptar {
+
+    padding: 24px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background-color: #D8DFE8;
+    color: black;
+    
+}
+
+#copiar {
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+}
+
+#texto2 {
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
